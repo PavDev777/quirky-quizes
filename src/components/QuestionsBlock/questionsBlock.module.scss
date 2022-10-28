@@ -1,0 +1,23 @@
+.questionsTitle {
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(0,212,255,1) 50%, rgba(121,9,107,1) 100%);
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgb(255, 255, 255);
+  padding: 30px;
+
+  @media(max-width:481px) {
+    padding: 10px;
+    font-size: 2rem;
+  }
+}
+
+.questionsContainer {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+  @media(max-width:481px) {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}

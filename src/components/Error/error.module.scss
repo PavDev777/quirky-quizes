@@ -1,0 +1,20 @@
+.error {
+  display: grid;
+  place-content: center;
+  height: 100vh;
+  text-align: center;
+
+  span {
+    font-size: 2rem;
+    font-weight: bold;
+    line-height: 1.5;
+  }
+}
+
+.errorImg {
+  width: 80%;
+  justify-self: center;
+  img {
+    width: 100%;
+  }
+}

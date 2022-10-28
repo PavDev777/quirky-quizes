@@ -1,0 +1,30 @@
+.questionBlock {
+  display: grid;
+  border: none;
+  background-color: rgb(255, 255, 255);
+  box-shadow: rgba(0, 0, 0, 0.07) 0 0 0 1px;
+  overflow: hidden;
+  text-align: center;
+  padding: 0;
+  border-radius: 10px;
+  height: 300px;
+  cursor: pointer;
+  a {
+    color: rgb(110, 109, 109);
+    text-decoration: none;
+    font-size: 0.8rem;
+    font-style: italic;
+  }
+}
+
+.questionImage {
+  width: 100%;
+  height: 100%;
+  max-height: 210px;
+  img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+  }
+}
+
